@@ -1,0 +1,132 @@
+/* 
+    Document   : paypal
+    Created on : Oct 15, 2015, 12:56:14 PM
+    Author     : HASU JADAV
+    Description:
+    Purpose of the stylesheet follows.
+*/
+body {
+    background: rgba(0, 0, 0, 0) url("../images/bg.jpg") repeat scroll 0 0;
+    color: #877e66;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+#order_review .shop_table {
+    border-bottom: 1px solid #ddd !important;
+    border-radius: 0;
+}
+.shop_table {
+    border: medium none !important;
+    font-size: 12px;
+    padding: 0;
+    width: 100% !important;
+}
+table.shop_table th {
+    font-weight: 700;
+    line-height: 18px;
+    padding: 9px 12px;
+}
+.shop_table thead th {
+    border-bottom: 0 none !important;
+    border-image: none;
+    border-left: 1px solid #ddd;
+    border-right: medium none !important;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-collapse: separate;
+    border-radius: 5px;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+}
+#order_review .shop_table th.product-total {
+    border-right: 1px solid #ddd !important;
+}
+form.checkout tr th.product-total {
+    border-right: 1px solid #ddd !important;
+}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th {
+    font-weight: 700;
+    line-height: 18px;
+    padding: 9px 12px;
+}
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+    border-collapse: collapse;
+    text-align: left;
+}
+#order_review .shop_table tfoot th {
+    border-left: 1px solid #ddd !important;
+}
+#order_review .shop_table tfoot th {
+    border-left: 1px solid #ddd !important;
+}
+.woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th, .woocommerce-page table.shop_table tfoot td, .woocommerce-page table.shop_table tfoot th {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+}
+.shop_table tr.cart_item td {
+    border-bottom: 0 none !important;
+    border-image: none;
+    border-left: 1px solid #ddd;
+    border-right: medium none !important;
+    border-top: 1px solid #ddd;
+}
+#content {
+    float: left;
+    min-height: 460px;
+    padding: 10px 0 80px;
+    width: 100%;
+    word-wrap: break-word;
+}
+#order_review .shop_table tfoot td {
+    border-radius: 0;
+    border-right: 1px solid #ddd !important;
+}
+#order_review .shop_table td {
+    border-left: 1px solid #ddd !important;
+}
+#order_review .shop_table td {
+    border-left: 1px solid #ddd !important;
+}
+.shop_table tr.cart_item td {
+    
+    border-left: 1px solid #ddd;
+    border-right: medium none !important;
+    border-top: 1px solid #ddd;
+}
+#order_review .shop_table td.product-total {
+    border-right: 1px solid #ddd !important;
+}
+.woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ad74a2 0px, #96588a 100%) repeat scroll 0 0;
+    border-color: #76456c;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+.woocommerce table.shop_table td, .woocommerce-page table.shop_table td {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+input#place_order {
+    background: #980b41 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    padding:7px 10px !important;
+    
+}
+.form-row.place-order {
+    text-align: center;
+}
+.payment_method_paypal{ list-style: none;}
+h3#order_review_heading{    color: #980b41;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville";
+}
